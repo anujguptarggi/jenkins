@@ -11,4 +11,9 @@ public class HelloController {
 	{
 		return "Welcome";
 	}
+	@RequestMapping("/anuj")
+	public String helloAnuj()
+	{
+		return "Welcome Anuj";
+	}
 }
